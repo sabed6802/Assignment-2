@@ -74,10 +74,25 @@ margin-bottom: 0.5em;
 }
 main p{
 margin-bottom: .5em;
+<<<<<<< HEAD
+}
+main ul{
+margin-top:0;
+=======
 }
 main ul{
 margin-top:0;
 }
+
+header nav ul ul{
+position: absolute;
+top: 100%;
+width: 140px;
+background: white;
+flex-flow: column;
+>>>>>>> c15677d04157e7dc871f6668f0e9567595e447ab
+}
+#nav_menu ul li {float: left;}
 
 header nav ul ul{
 position: absolute;
@@ -100,4 +115,8 @@ background-image: linear-gradient(45deg,black 0%,orange 25%,white 100%);
 footer p {
 font-size: 90%;
 text-align: center;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> c15677d04157e7dc871f6668f0e9567595e447ab
