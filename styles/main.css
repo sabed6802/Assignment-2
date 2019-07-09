@@ -1,6 +1,16 @@
 body  {
-	font-family: Verdana, Arial, Helvetica, sans-serif;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+width: 800px;
+background-color: white;
+margin: 0 auto;
+padding: 0;
+border: 3px solid black;
+box-shadow:0 8px 16px 8px;
 }
+html{
+background-image: url("../images/bats.gif");
+}
+
 a {
     font-weight: bold;
     color: orange;
@@ -12,41 +22,82 @@ a:hover, a:focus {
     color: green;
 }
 
+
 /* Header */
 header img { 
-	float: left; 
+float: left; 
+padding-right: 15px;
 } 
+
+header{	
+    border-bottom: 2px solid black;
+padding: 15px;
+background-image: -webkit-linear-gradient(45deg,white 0%, orange 75%,black 100%);
+background-image: -moz-linear-gradient(45deg,white 0%,orange 75%,black 100%);
+background-image: -o-linear-gradient(45deg,white 0%,orange 100%);
+background-image: linear-gradient(45deg,white 0%,orange 75%,black 100%);
+}
 header h2 {
-	font-size: 230%;
-	font-style: italic;
-	color: orange;
-	text-indent: 25px;
-	text-shadow: 2px 2px 2px black;
+font-size: 230%;
+font-style: italic;
+color: orange;
+text-indent: 25px;
+text-shadow: 2px 2px 2px black;
+margin: 0;
+padding: 0;
 }
 header h3 {
-	font-size: 125%;
-	text-indent: 25px;
+font-size: 125%;
+text-indent: 25px;
+margin: 0;
+padding: 0;
 }
-
+header img{
+float: left;
+padding-right: 15px;
+}
 /* Main */
 main h1 { 
-	font-size: 140%;
+font-size: 140%;
+margin-bottom: 0.5em;
 }
 main h1:first-letter { 
-	font-size: 240%;
+font-size: 240%;
 }
 main h2 {
-	font-size: 125%;
+font-size: 125%;
+margin: 0.8em,0.5em 0;
 }
 main h3 {
-	font-size: 110%;
+font-size: 110%;
+margin-bottom: 0.5em;
 }
-ul {
-	line-height: 1.5;
+main p{
+margin-bottom: .5em;
+}
+main ul{
+margin-top:0;
 }
 
+header nav ul ul{
+position: absolute;
+top: 100%;
+width: 140px;
+background: white;
+flex-flow: column;
+}
+#nav_menu ul li {float: left;}
+
 /* Footer */
+footer{	
+    border-top: 2px solid black;
+padding: 15px;
+background-image: -webkit-linear-gradient(45deg,black 0%, orange 25%,white 100%);
+background-image: -moz-linear-gradient(45deg,black 0%,orange 25%,white 100%);
+background-image: -o-linear-gradient(45deg,black 0%,orange 25%,white 100%);
+background-image: linear-gradient(45deg,black 0%,orange 25%,white 100%);
+}
 footer p {
-	font-size: 90%;
-	text-align: center;
+font-size: 90%;
+text-align: center;
 }
